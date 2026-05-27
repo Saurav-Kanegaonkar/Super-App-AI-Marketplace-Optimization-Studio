@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+MAR017,Marketplace domain 17,Growth,96.76,54.2,79.2,791024
+MAR008,Marketplace domain 8,Growth,94.50,51.5,78.6,779919
+MAR003,Marketplace domain 3,Growth,92.54,51.9,80.1,755570
+MAR001,Marketplace domain 1,Core,88.09,53.2,80.8,685233
+MAR006,Marketplace domain 6,Strategic,87.70,52.3,80.2,684961
+MAR012,Marketplace domain 12,Growth,86.49,53.8,81.0,659045
+MAR032,Marketplace domain 32,Core,86.17,53.6,79.8,650380
+MAR020,Marketplace domain 20,Core,85.65,50.2,80.3,675142
+MAR010,Marketplace domain 10,Strategic,85.45,49.1,79.2,676946
+MAR023,Marketplace domain 23,Watch,85.36,49.4,80.8,680357
+MAR002,Marketplace domain 2,Strategic,84.06,50.0,80.5,655547
+MAR016,Marketplace domain 16,Core,83.02,50.0,80.7,641680
+MAR022,Marketplace domain 22,Watch,82.47,50.3,81.0,632912
+MAR036,Marketplace domain 36,Growth,81.61,49.9,82.0,629126
+MAR033,Marketplace domain 33,Strategic,81.19,51.4,80.0,600680
+MAR014,Marketplace domain 14,Strategic,80.32,47.7,78.3,612976
+MAR029,Marketplace domain 29,Growth,78.70,48.6,77.9,581370
+MAR019,Marketplace domain 19,Watch,77.40,51.5,81.1,551784
+MAR028,Marketplace domain 28,Growth,77.15,51.7,80.0,541955
+MAR018,Marketplace domain 18,Strategic,76.35,53.9,80.2,512246
+MAR027,Marketplace domain 27,Watch,76.26,49.6,80.0,547890
+MAR024,Marketplace domain 24,Core,75.60,50.4,80.1,532074
+MAR035,Marketplace domain 35,Growth,75.49,48.4,80.3,548467
+MAR034,Marketplace domain 34,Watch,75.39,51.0,80.2,524132
+MAR015,Marketplace domain 15,Growth,74.95,49.3,80.2,532683
