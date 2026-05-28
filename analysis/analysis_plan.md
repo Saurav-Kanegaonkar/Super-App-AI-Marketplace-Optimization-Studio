@@ -1,6 +1,8 @@
 # Analysis Plan
 
-1. Aggregate daily metrics at marketplace domain grain.
-2. Join events and action candidates to find high-risk operating segments.
-3. Rank the queue by risk, quality, and estimated impact.
-4. Convert the top issues into stakeholder-ready recommendations.
+1. Define AI opportunities across the service lines of a multi-service marketplace.
+2. Score each opportunity using impact, readiness, feasibility, confidence, risk, effort, and stakeholder complexity.
+3. Convert the ranked opportunity queue into PRD-ready product slices.
+4. Attach an experiment plan and KPI guardrail to every opportunity.
+5. Review model readiness through instrumentation, label quality, latency, human review, and fairness checks.
+6. Package the outputs into an interactive product decision studio.

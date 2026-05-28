@@ -1,0 +1,41 @@
+opportunity_id,check_name,question,score,status,owner
+AIOP-001,Event instrumentation,Are key user and partner events captured with stable IDs?,86,Green,Data science
+AIOP-001,Label quality,Can model labels be reviewed or corrected by operators?,84,Green,Data science
+AIOP-001,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",80,Green,Data science
+AIOP-001,Human review,Is there a clear approval point before customer or partner impact?,78,Yellow,Product and policy
+AIOP-001,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",49,Red,Product and policy
+AIOP-002,Event instrumentation,Are key user and partner events captured with stable IDs?,80,Green,Data science
+AIOP-002,Label quality,Can model labels be reviewed or corrected by operators?,78,Yellow,Data science
+AIOP-002,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",77,Yellow,Data science
+AIOP-002,Human review,Is there a clear approval point before customer or partner impact?,77,Yellow,Product and policy
+AIOP-002,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",55,Red,Product and policy
+AIOP-004,Event instrumentation,Are key user and partner events captured with stable IDs?,87,Green,Data science
+AIOP-004,Label quality,Can model labels be reviewed or corrected by operators?,85,Green,Data science
+AIOP-004,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",81,Green,Data science
+AIOP-004,Human review,Is there a clear approval point before customer or partner impact?,77,Yellow,Product and policy
+AIOP-004,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",63,Red,Product and policy
+AIOP-005,Event instrumentation,Are key user and partner events captured with stable IDs?,76,Yellow,Data science
+AIOP-005,Label quality,Can model labels be reviewed or corrected by operators?,74,Yellow,Data science
+AIOP-005,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",69,Yellow,Data science
+AIOP-005,Human review,Is there a clear approval point before customer or partner impact?,76,Yellow,Product and policy
+AIOP-005,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",45,Red,Product and policy
+AIOP-008,Event instrumentation,Are key user and partner events captured with stable IDs?,77,Yellow,Data science
+AIOP-008,Label quality,Can model labels be reviewed or corrected by operators?,75,Yellow,Data science
+AIOP-008,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",74,Yellow,Data science
+AIOP-008,Human review,Is there a clear approval point before customer or partner impact?,76,Yellow,Product and policy
+AIOP-008,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",45,Red,Product and policy
+AIOP-003,Event instrumentation,Are key user and partner events captured with stable IDs?,72,Yellow,Data science
+AIOP-003,Label quality,Can model labels be reviewed or corrected by operators?,70,Yellow,Data science
+AIOP-003,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",71,Yellow,Data science
+AIOP-003,Human review,Is there a clear approval point before customer or partner impact?,76,Yellow,Product and policy
+AIOP-003,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",45,Red,Product and policy
+AIOP-007,Event instrumentation,Are key user and partner events captured with stable IDs?,64,Red,Data science
+AIOP-007,Label quality,Can model labels be reviewed or corrected by operators?,62,Red,Data science
+AIOP-007,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",63,Red,Data science
+AIOP-007,Human review,Is there a clear approval point before customer or partner impact?,74,Yellow,Product and policy
+AIOP-007,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",45,Red,Product and policy
+AIOP-006,Event instrumentation,Are key user and partner events captured with stable IDs?,69,Yellow,Data science
+AIOP-006,Label quality,Can model labels be reviewed or corrected by operators?,67,Yellow,Data science
+AIOP-006,Latency fit,"Does the use case require real-time, near-real-time, or batch scoring?",67,Yellow,Data science
+AIOP-006,Human review,Is there a clear approval point before customer or partner impact?,75,Yellow,Product and policy
+AIOP-006,Fairness review,"Could recommendations create unfair partner, merchant, or user outcomes?",49,Red,Product and policy

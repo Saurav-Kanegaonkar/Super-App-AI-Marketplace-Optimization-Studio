@@ -6,24 +6,72 @@
   <title>Super App AI Marketplace Optimization Studio</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body class="ai-discovery" style="--accent:#7c3aed;--bg:#f7f2ff">
-  <main class="ai-shell">
-    <header class="ai-hero">
-      <p>AI product discovery studio</p>
-      <h1>Super App AI Marketplace Optimization Studio</h1>
-      <span>Blends interview evidence, community feedback, product telemetry, competitive research, and prompt-test notes into PRD-ready choices.</span>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">AI product roadmap studio</p>
+        <h1>Super App AI Marketplace Optimization Studio</h1>
+        <span>Prioritizes AI bets across mobility, delivery, grocery, wallet, partner supply, and B2B operations.</span>
+      </div>
+      <aside>
+        <span>Current recommendation</span>
+        <strong id="topDecision">Loading</strong>
+      </aside>
     </header>
-    <section class="prd-grid">
-      <article class="memo"><b>01</b><h2>User Pull</h2><p>Power users want faster ideation, but community threads show low tolerance for black-box creative controls.</p></article>
-      <article class="memo"><b>02</b><h2>Edge Cases</h2><p>Prompt ambiguity, asset ownership, and revision memory are the highest-risk requirements before launch.</p></article>
-      <article class="memo"><b>03</b><h2>Roadmap Bet</h2><p>Ship a narrow feedback loop around saved prompts before expanding into a broader creative workflow suite.</p></article>
+
+    <section class="summary-grid" id="summaryGrid" aria-label="Portfolio summary"></section>
+
+    <nav class="view-tabs" aria-label="Artifact views">
+      <button class="active" type="button" data-view="portfolioView">Portfolio</button>
+      <button type="button" data-view="prdView">PRD</button>
+      <button type="button" data-view="launchView">Launch</button>
+    </nav>
+
+    <section class="view active" id="portfolioView">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>AI Opportunity Portfolio</h2>
+        </div>
+        <select id="serviceFilter" aria-label="Filter by service"></select>
+      </div>
+      <div class="portfolio-layout">
+        <div class="queue-panel" id="opportunityList"></div>
+        <div class="detail-panel" id="portfolioDetail"></div>
+      </div>
     </section>
-    <section class="experiment-wall">
-      <h2>Launch Readout</h2>
-      <div><span>Activation lift</span><strong>+20%</strong></div>
-      <div><span>Escalation risk</span><strong>-21%</strong></div>
-      <div><span>Research hours</span><strong>-18</strong></div>
+
+    <section class="view" id="prdView">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2 id="prdTitle">PRD Builder</h2>
+        </div>
+      </div>
+      <div class="prd-layout">
+        <div class="detail-panel" id="prdMain"></div>
+        <aside class="role-card">
+          <p class="eyebrow">Role match</p>
+          <h3>What this demonstrates</h3>
+          <ul id="roleList"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="launchView">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Experiment and Model Readiness</h2>
+        </div>
+      </div>
+      <div class="launch-layout">
+        <div class="detail-panel" id="experimentCard"></div>
+        <div class="readiness-grid" id="readinessGrid"></div>
+      </div>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,9 @@
+opportunity_id,opportunity_name,test_type,primary_metric,baseline,target_lift_pct,minimum_sample,launch_gate,risk_watch,next_decision
+AIOP-001,Marketplace Balance Copilot,Geo holdout,Completed rides per active supply hour,53,6.5,4540,Ship MVP,Cancellation rate and driver earnings volatility,Expand two cities
+AIOP-002,Courier ETA Risk Engine,Service cohort A/B,On-time delivered orders,56,6.0,5280,Pilot only,Refund rate and courier reassignment rate,Run limited pilot
+AIOP-004,Merchant Menu Quality Copilot,Staged rollout,Menu sessions with add-to-cart,48,5.7,6020,Pilot only,Order defect rate and merchant task completion,Run limited pilot
+AIOP-005,Driver Earnings Quality Advisor,Geo holdout,Active partner hours in shortage zones,59,4.4,6760,Pilot only,Earnings variance by partner cohort,Run limited pilot
+AIOP-008,Cross-Service Next Best Action,Service cohort A/B,Second-service activation,58,4.4,7500,Pilot only,Notification opt-out rate,Run limited pilot
+AIOP-003,Wallet Cash-In Assistant,Staged rollout,Wallet-funded completed orders,44,4.3,8240,Pilot only,KYC failure rate and payment support contacts,Run limited pilot
+AIOP-007,Trust Incident Triage,Geo holdout,Critical incident response SLA,55,3.8,8980,Discovery,False negative severity review rate,Collect more evidence
+AIOP-006,B2B Fleet Demand Planner,Service cohort A/B,Enterprise trips completed within budget plan,42,3.8,9720,Discovery,Account complaint rate,Collect more evidence
